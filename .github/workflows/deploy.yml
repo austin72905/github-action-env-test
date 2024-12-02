@@ -9,13 +9,13 @@ env:
 
 jobs:
   test:
-  env:
-    MONGODB_CLUSTER_ADDRESS: a
-    MONGODB_USERNAME: v
-    MONGODB_PASSWORD: p
-    PORT: 8080
-    environment: testing
-    runs-on: ubuntu-latest
+    env:
+      MONGODB_CLUSTER_ADDRESS: a
+      MONGODB_USERNAME: v
+      MONGODB_PASSWORD: p
+      PORT: 8080
+      environment: testing
+      runs-on: ubuntu-latest
     steps:
       # - name: Get Code
       #   uses: actions/checkout@v3
